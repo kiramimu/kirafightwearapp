@@ -1,14 +1,11 @@
 import React from 'react';
 import Item from '../Item/Item.js'
+import products from '../../Products/Products.js'
 
 function ItemList({ items }) {
-    return <>
-        <li> items[0] </li>
-        <li> items[0] </li>
-        <li> items[0] </li>
-    </>
     // Desarrolla la vista utilizando un array de items y un map
 }
+   
 
 
 export default ItemList
@@ -21,7 +18,7 @@ let promesa = new Promise((resultado)=>{
 
     
 promesa.then((resultado)=>{
-    
+
 })
     
     
